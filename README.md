@@ -45,22 +45,22 @@ ACO PATHFINDING PARAMETER SETUP
 ==================================================
 Enter values or press Enter to use defaults.
 
-Grid Size: 7x8 with 11 obstacles (20.0%),
-Start: (1,0), Goal: (5,7),
-Ants: 10, Iterations: 20,
-Hybrid Weight: 0.5, Max Backtrack: 5.
+Grid Size: 7x8 with 11 obstacles (20.0%)
+Start: (1,0), Goal: (5,7)
+Ants: 10, Iterations: 20
+Hybrid Weight: 0.5, Max Backtrack: 5
 
 FINAL RESULT
 Best path found with length: 11
   0  1  2  3  4  5  6  7  
 ---------------------------
-0|   |   |   |   |   |   |   |   |,
-1| S | * |   |   | # |   |   |   |.
-2| * |   | # |   |   |   | # |   |,
-3| * |   |   | # |   |   |   |   |,
-4| * | # |   |   |   | # |   |   |,
-5| * | * | * | * | * | * | * | G |,
-6|   |   |   |   | # |   |   |   |.
+0|   |   |   |   |   |   |   |   |
+1| S | * |   |   | # |   |   |   |
+2| * |   | # |   |   |   | # |   |
+3| * |   |   | # |   |   |   |   |
+4| * | # |   |   |   | # |   |   |
+5| * | * | * | * | * | * | * | G |
+6|   |   |   |   | # |   |   |   |
 
 License
 This project is open-source and available for free use.
