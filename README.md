@@ -1,73 +1,73 @@
-# ACO Pathfinding Algorithm
+# ACO Path Navigator  
 
-An implementation of Ant Colony Optimization (ACO) for pathfinding in 2D grids with obstacles, featuring backtracking, hybrid ACO-Dijkstra approach, and adaptive parameter tuning.
+An innovative approach to path planning using Ant Colony Optimization (ACO) for 2D environments with barriers, featuring intelligent backtracking, ACO-Dijkstra fusion, and self-adjusting parameters.  
 
-## Features
+## Key Features  
 
-- **Customizable Grid Generation**:
-  - Adjustable grid size (rows x columns)
-  - Configurable obstacle ratio
-  - Custom start and goal positions
+- **Dynamic Environment Setup**:  
+  - Customizable layout dimensions  
+  - Adjustable barrier density  
+  - Flexible start/finish positioning  
 
-- **Advanced ACO Implementation**:
-  - Multiple ants with individual paths
-  - Pheromone trail system
-  - Dynamic parameter adaptation
-  - Backtracking to escape dead ends
+- **Enhanced ACO Engine**:  
+  - Colony of pathfinding agents  
+  - Evolving scent trail mechanism  
+  - Real-time parameter optimization  
+  - Smart dead-end recovery  
 
-- **Hybrid Approach**:
-  - Combines ACO with Dijkstra's algorithm
-  - Adjustable hybrid weight parameter
+- **Algorithm Fusion**:  
+  - Hybrid ACO + Dijkstra integration  
+  - Tunable balance between exploration and certainty  
 
-- **Genetic Algorithm Integration**:
-  - Path crossover in later iterations
-  - Combines features of successful paths
+- **Evolutionary Techniques**:  
+  - Path recombination in advanced cycles  
+  - Selective inheritance of successful routes  
 
-- **Visualization**:
-  - Color-coded grid display
-  - Path animation
-  - Real-time parameter and statistics display
+- **Interactive Display**:  
+  - Visual terrain mapping  
+  - Animated solution tracing  
+  - Live performance metrics  
 
-## Requirements
+## System Needs  
 
-- Python 3.x
-- Terminal with ANSI color support (most modern terminals)
+- Python 3.8+  
+- Color-supported command interface  
 
-## Usage
+## How to Use  
 
-1. Run the script:
-   ```bash
-   python aco_pathfinding.py
+1. Launch the navigator:  
+   ```bash  
+   python ant_navigator.py  
 
-Example Output:
+Sample Output:  
 
-ACO PATHFINDING PARAMETER SETUP
-==================================================
-Enter values or press Enter to use defaults.
+ANT COLONY NAVIGATOR CONFIGURATION  
+══════════════════════════════════  
+Set parameters or accept defaults  
 
- - Grid Size: 7x8 with 11 obstacles (20.0%)
- - Start: (1,0), Goal: (5,7)
- - Ants: 10, Iterations: 20
- - Hybrid Weight: 0.5, Max Backtrack: 5
+ • Layout: 7x8 grid with 11 barriers (20%)  
+ • Origin: (1,0), Destination: (5,7)  
+ • Agents: 10, Cycles: 20  
+ • Hybrid Ratio: 0.5, Max Retreats: 5  
 
-FINAL RESULT
-Best path found with length: 11
- ```bash
+OPTIMAL PATH DISCOVERED  
+Solution length: 11 steps  
+```bash  
   0  1  2  3  4  5  6  7  
----------------------------
-0|   |   |   |   |   |   |   |   |
-1| S | * |   |   | # |   |   |   |
-2| * |   | # |   |   |   | # |   |
-3| * |   |   | # |   |   |   |   |
-4| * | # |   |   |   | # |   |   |
-5| * | * | * | * | * | * | * | G |
-6|   |   |   |   | # |   |   |   |
+━━━━━━━━━━━━━━━━━━━━━━━━  
+0|   |   |   |   |   |   |   |   |  
+1| S | > |   |   | █ |   |   |   |  
+2| > |   | █ |   |   |   | █ |   |  
+3| > |   |   | █ |   |   |   |   |  
+4| > | █ |   |   |   | █ |   |   |  
+5| > | > | > | > | > | > | > | G |  
+6|   |   |   |   | █ |   |   |   |  
 
-License
-This project is open-source and available for free use.
+Usage Rights  
+This solution is publicly available under open-source guidelines.  
 
-Notes
- - For best results, use a terminal that supports ANSI color codes
- - Larger grids may require more iterations/ants
- - The hybrid approach helps when pure ACO struggles
- - Parameters can significantly affect performance
+Important Notes  
+ • Recommended: Use terminals with full color support  
+ • Larger environments may need increased cycles/agents  
+ • The hybrid method enhances basic ACO performance  
+ • Parameter tuning dramatically impacts results
