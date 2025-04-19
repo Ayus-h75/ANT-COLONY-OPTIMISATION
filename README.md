@@ -66,7 +66,7 @@ License
 This project is open-source and available for free use.
 
 Notes
-For best results, use a terminal that supports ANSI color codes
-Larger grids may require more iterations/ants
-The hybrid approach helps when pure ACO struggles
-Parameters can significantly affect performance
+ - For best results, use a terminal that supports ANSI color codes
+ - Larger grids may require more iterations/ants
+ - The hybrid approach helps when pure ACO struggles
+ - Parameters can significantly affect performance
