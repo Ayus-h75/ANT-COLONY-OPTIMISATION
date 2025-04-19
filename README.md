@@ -52,6 +52,7 @@ Enter values or press Enter to use defaults.
 
 FINAL RESULT
 Best path found with length: 11
+ ```bash
   0  1  2  3  4  5  6  7  
 ---------------------------
  - 0|   |   |   |   |   |   |   |   |
